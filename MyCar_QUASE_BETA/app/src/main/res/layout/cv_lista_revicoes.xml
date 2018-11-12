@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="9dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo_cv_specs"
+        >
+
+
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fundo_cv_specs"
+            android:padding="15dp"
+            />-->
+
+       <ImageView
+            android:id="@+id/carro_ver"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ford_fiesta"
+            android:alpha="0.4"
+            android:padding="10dp"
+            />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/form1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marca:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/marca_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Modelo:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/modelo_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#000"
+                        android:enabled="false"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- FORM 2-->
+
+            <LinearLayout
+                android:layout_below="@+id/form1"
+                android:id="@+id/form2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Matricula:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/matricula_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kilometros:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/km_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- FORM 3-->
+
+
+            <LinearLayout
+                android:layout_below="@+id/form2"
+                android:id="@+id/form3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Agua:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/agua_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oleo:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/oleo_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- FORM 4-->
+
+
+            <LinearLayout
+                android:layout_below="@+id/form3"
+                android:id="@+id/form4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Filtro Combustivel:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/combustivel_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Filtro Ar:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/ver_ar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- FORM 5-->
+
+
+            <LinearLayout
+                android:layout_below="@+id/form4"
+                android:id="@+id/form5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Filtro AC:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/ver_ac"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Luzes:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/luzes_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- FORM 6-->
+
+
+            <LinearLayout
+                android:layout_below="@+id/form5"
+                android:id="@+id/form6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pneus:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/pneus_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Travoes:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/travoes_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- FORM 7-->
+
+
+            <LinearLayout
+                android:layout_below="@+id/form6"
+                android:id="@+id/form7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alinhamento:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/alinhamento_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eletrica:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/eletrica_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- FORM 7-->
+
+
+            <LinearLayout
+                android:layout_below="@+id/form7"
+                android:id="@+id/form8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ano:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/ano_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mes:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/mes_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:enabled="false"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dia:"
+                        android:textColor="#000"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/dia_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:inputType="text" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/form8"
+                android:id="@+id/form9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Custos:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/custo_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_below="@+id/form9"
+                android:id="@+id/form10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descricao Problema:"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+
+                    <EditText
+                        android:id="@+id/problema_ver"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
