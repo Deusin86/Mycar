@@ -1,0 +1,294 @@
+{ 
+    "_id" : ObjectId("5bb79658daed5210bc1b9b15"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bb7966fdaed5210bc1b9b16"), 
+    "logo" : "ford.png", 
+    "nome" : "FORD", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bb79684daed5210bc1b9b17"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bb79699daed5210bc1b9b18"), 
+    "logo" : "renaut.png", 
+    "nome" : "RENAUT", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bb796aedaed5210bc1b9b19"), 
+    "logo" : "vw.png", 
+    "nome" : "VW", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bbe1bb167052b0a07a4bc23"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bbe1c0f67052b0a07a4bc25"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bbe56fc67052b0a07a4bc26"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bbe679d67052b0a07a4bc27"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bbe69a367052b0a07a4bc29"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bbe69d367052b0a07a4bc2b"), 
+    "logo" : "ford.png", 
+    "nome" : "FORD", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc1483f94334e1edb92ba30"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc3bd8b94334e3b6b9989e1"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc3be0b94334e3b6b9989e4"), 
+    "logo" : "renaut.png", 
+    "nome" : "RENAUT", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc4f09df1dca11176a0c7e1"), 
+    "logo" : "vw.png", 
+    "nome" : "VW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc4f2a2f1dca11176a0c7e2"), 
+    "logo" : "renaut.png", 
+    "nome" : "RENAUT", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc4f915f1dca1256e4e2647"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc4f926f1dca1256e4e2648"), 
+    "logo" : "peugeot.png", 
+    "nome" : "PEUGEOT", 
+    "username" : "nada", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc501eff1dca12b7d754b16"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc501f9f1dca12b7d754b17"), 
+    "logo" : "peugeot.png", 
+    "nome" : "PEUGEOT", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc501fef1dca12b7d754b18"), 
+    "logo" : "vw.png", 
+    "nome" : "VW", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc50201f1dca12b7d754b19"), 
+    "logo" : "renaut.png", 
+    "nome" : "RENAUT", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc50203f1dca12b7d754b1a"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc50208f1dca12b7d754b1b"), 
+    "logo" : "ford.png", 
+    "nome" : "FORD", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc5020bf1dca12b7d754b1c"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc50210f1dca12b7d754b1d"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc5025af1dca12b7d754b1e"), 
+    "logo" : "ford.png", 
+    "nome" : "FORD", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc5025cf1dca12b7d754b1f"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc5025ef1dca12b7d754b20"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc502edf1dca12c2743c969"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc502f1f1dca12c2743c96a"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc505c3f1dca12c2743c96c"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "hugo", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc75317f1dca10cad371123"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc7532cf1dca10cad371124"), 
+    "logo" : "peugeot.png", 
+    "nome" : "PEUGEOT", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc75382f1dca10cad371125"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc75962f1dca115040f3474"), 
+    "logo" : "peugeot.png", 
+    "nome" : "PEUGEOT", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc759eff1dca115040f3477"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc76d1bf1dca11fd0ba07a7"), 
+    "logo" : "renaut.png", 
+    "nome" : "RENAUT", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc773e6f1dca12580d7670c"), 
+    "logo" : "bmw.png", 
+    "nome" : "BMW", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc77469f1dca1264f26f14e"), 
+    "logo" : "ford.png", 
+    "nome" : "FORD", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc79881f1dca1264f26f150"), 
+    "logo" : "audi.png", 
+    "nome" : "AUDI", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}
+{ 
+    "_id" : ObjectId("5bc79916f1dca1264f26f152"), 
+    "logo" : "mercedes.png", 
+    "nome" : "MERCEDES", 
+    "username" : "pedrov", 
+    "_class" : "ligacao.ligacao.model.Marca"
+}

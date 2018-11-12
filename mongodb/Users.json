@@ -1,0 +1,40 @@
+{ 
+    "_id" : ObjectId("5bba2b51daed520b23c190d4"), 
+    "nome" : "Hugo", 
+    "contacto" : "21555568", 
+    "email" : "hug@ola.pt", 
+    "idade" : "32", 
+    "username" : "hugo", 
+    "password" : "123", 
+    "_class" : "ligacao.ligacao.model.User"
+}
+{ 
+    "_id" : ObjectId("5bbb85a7f1dca11e8bb891e2"), 
+    "nome" : "pedrov", 
+    "contacto" : "93845736", 
+    "email" : "pedro@hotmail.com", 
+    "idade" : "19", 
+    "username" : "pedrov", 
+    "password" : "123", 
+    "_class" : "ligacao.ligacao.model.User"
+}
+{ 
+    "_id" : ObjectId("5bc50719f1dca12c2743c96f"), 
+    "nome" : "sara", 
+    "contacto" : "123456", 
+    "email" : "hgu@hg.pt", 
+    "idade" : "25", 
+    "username" : "sara", 
+    "password" : "123", 
+    "_class" : "ligacao.ligacao.model.User"
+}
+{ 
+    "_id" : ObjectId("5bc79839f1dca1264f26f14f"), 
+    "nome" : "sanguinetti", 
+    "contacto" : "938547586", 
+    "email" : "sang@hotmail.com", 
+    "idade" : "34", 
+    "username" : "sang", 
+    "password" : "11233", 
+    "_class" : "ligacao.ligacao.model.User"
+}

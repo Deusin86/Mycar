@@ -1,0 +1,364 @@
+{ 
+    "_id" : ObjectId("5bbbc454f1dca12ac828ee15"), 
+    "imagem_modelo" : "bmw_serie1.png", 
+    "nome_marca" : "BMW", 
+    "nome_modelo" : "Bmw Serie 1", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.2L/100Km", 
+    "potencia" : "110cv", 
+    "matricula" : "nada", 
+    "motor" : "1.6cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bbbc487f1dca12ac828ee16"), 
+    "imagem_modelo" : "ford_fiesta.png", 
+    "nome_marca" : "FORD", 
+    "nome_modelo" : "Ford Fiesta", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "4.8L/100Km", 
+    "potencia" : "75cv", 
+    "matricula" : "nada", 
+    "_class" : "ligacao.ligacao.model.Modelos", 
+    "motor" : "1.4cc"
+}
+{ 
+    "_id" : ObjectId("5bbbc4b9f1dca12ac828ee17"), 
+    "imagem_modelo" : "mercedes_classA.png", 
+    "nome_marca" : "MERCEDES", 
+    "nome_modelo" : "Mercedes Classe A", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.1L/100Km", 
+    "potencia" : "110cv", 
+    "matricula" : "nada", 
+    "motor" : "1.6cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bbbc4e5f1dca12ac828ee18"), 
+    "imagem_modelo" : "renaut_clio.png", 
+    "nome_marca" : "RENAUT", 
+    "nome_modelo" : "Renaut Clio", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "4.9L/100Km", 
+    "potencia" : "90cv", 
+    "matricula" : "nada", 
+    "motor" : "1.5cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bbbc500f1dca12ac828ee19"), 
+    "imagem_modelo" : "vw_golf.png", 
+    "nome_marca" : "VW", 
+    "nome_modelo" : "Golf", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.3L/100Km", 
+    "potencia" : "115cv", 
+    "matricula" : "nada", 
+    "_class" : "ligacao.ligacao.model.Modelos", 
+    "motor" : "1.6cc"
+}
+{ 
+    "_id" : ObjectId("5bbe1bff67052b0a07a4bc24"), 
+    "imagem_modelo" : "bmw_serie1.png", 
+    "nome_marca" : "BMW", 
+    "nome_modelo" : "Bmw Serie 1", 
+    "username" : "pedrov", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.2L/100Km", 
+    "potencia" : "110cv", 
+    "matricula" : "05-BB-75", 
+    "motor" : "1.6cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4fe22f1dca1291aed2ed3"), 
+    "imagem_modelo" : "bmwi8.png", 
+    "nome_marca" : "BMW", 
+    "nome_modelo" : "Bmw i8 ", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "hibrido", 
+    "consumo" : "3.4L/100Km", 
+    "potencia" : "250cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4fe5ff1dca1291aed2ed4"), 
+    "imagem_modelo" : "bmwserie2.png", 
+    "nome_marca" : "BMW", 
+    "nome_modelo" : "Bmw serie 2 ", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "4.9L/100Km", 
+    "potencia" : "155cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4fea5f1dca1291aed2ed5"), 
+    "imagem_modelo" : "fordfocus.png", 
+    "nome_marca" : "FORD", 
+    "nome_modelo" : "Ford Focus", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "4.8L/100Km", 
+    "potencia" : "100cv", 
+    "matricula" : "nada", 
+    "motor" : "1.6cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4fec1f1dca1291aed2ed6"), 
+    "imagem_modelo" : "fordmustang.png", 
+    "nome_marca" : "FORD", 
+    "nome_modelo" : "Ford Mustang", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "6.3L/100Km", 
+    "potencia" : "425cv", 
+    "matricula" : "nada", 
+    "motor" : "3.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4ff01f1dca1291aed2ed7"), 
+    "imagem_modelo" : "mercedesclassc.png", 
+    "nome_marca" : "MERCEDES", 
+    "nome_modelo" : "Mercedes Classe C", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.1L/100Km", 
+    "potencia" : "135cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4ff20f1dca1291aed2ed8"), 
+    "imagem_modelo" : "mercedesclasse.png", 
+    "nome_marca" : "MERCEDES", 
+    "nome_modelo" : "Mercedes Classe E", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.3L/100Km", 
+    "potencia" : "155cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4ff75f1dca1291aed2ed9"), 
+    "imagem_modelo" : "renauttwingo.png", 
+    "nome_marca" : "RENAUT", 
+    "nome_modelo" : "Renaut Twingo", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "4.2L/100Km", 
+    "potencia" : "50cv", 
+    "matricula" : "nada", 
+    "motor" : "1.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4ff8ef1dca1291aed2eda"), 
+    "imagem_modelo" : "renautcapture.png", 
+    "nome_marca" : "RENAUT", 
+    "nome_modelo" : "Renaut Capture", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "4.8L/100Km", 
+    "potencia" : "110cv", 
+    "matricula" : "nada", 
+    "motor" : "1.4cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4ffcef1dca1291aed2edb"), 
+    "imagem_modelo" : "vwsiroco.png", 
+    "nome_marca" : "VW", 
+    "nome_modelo" : "Siroco", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.8L/100Km", 
+    "potencia" : "160cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc4ffe0f1dca1291aed2edc"), 
+    "imagem_modelo" : "vwpassat.png", 
+    "nome_marca" : "VW", 
+    "nome_modelo" : "Passat", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.8L/100Km", 
+    "potencia" : "140cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc50052f1dca1291aed2ede"), 
+    "imagem_modelo" : "audia5.png", 
+    "nome_marca" : "AUDI", 
+    "nome_modelo" : "A5", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.0L/100Km", 
+    "potencia" : "150cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc5006cf1dca1291aed2edf"), 
+    "imagem_modelo" : "auditt.png", 
+    "nome_marca" : "AUDI", 
+    "nome_modelo" : "TT", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.2L/100Km", 
+    "potencia" : "140cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc500d0f1dca1291aed2ee0"), 
+    "imagem_modelo" : "audir8.png", 
+    "nome_marca" : "AUDI", 
+    "nome_modelo" : "R8", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "6.0L/100Km", 
+    "potencia" : "380cv", 
+    "matricula" : "nada", 
+    "motor" : "3.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc50156f1dca1291aed2ee1"), 
+    "imagem_modelo" : "peugeot308.png", 
+    "nome_marca" : "PEUGEOT", 
+    "nome_modelo" : "208", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.2L/100Km", 
+    "potencia" : "115cv", 
+    "matricula" : "nada", 
+    "motor" : "1.6cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc5018cf1dca1291aed2ee2"), 
+    "imagem_modelo" : "peugeot3088.png", 
+    "nome_marca" : "PEUGEOT", 
+    "nome_modelo" : "308", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.2L/100Km", 
+    "potencia" : "115cv", 
+    "matricula" : "nada", 
+    "motor" : "1.6cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc501aaf1dca1291aed2ee3"), 
+    "imagem_modelo" : "peugeot508.png", 
+    "nome_marca" : "PEUGEOT", 
+    "nome_modelo" : "508", 
+    "username" : "nada", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "5.6L/100Km", 
+    "potencia" : "145cv", 
+    "matricula" : "nada", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc50317f1dca12c2743c96b"), 
+    "imagem_modelo" : "audir8.png", 
+    "nome_marca" : "AUDI", 
+    "nome_modelo" : "R8", 
+    "username" : "hugo", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "Gasoleo", 
+    "potencia" : "380cv", 
+    "matricula" : "22-tt-22", 
+    "motor" : "3.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc505d4f1dca12c2743c96d"), 
+    "imagem_modelo" : "bmwserie2.png", 
+    "nome_marca" : "BMW", 
+    "nome_modelo" : "Bmw serie 2", 
+    "username" : "hugo", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "Gasoleo", 
+    "potencia" : "155cv", 
+    "matricula" : "00-tt-00", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc759faf1dca115040f3478"), 
+    "imagem_modelo" : "auditt.png", 
+    "nome_marca" : "AUDI", 
+    "nome_modelo" : "TT", 
+    "username" : "pedrov", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "Gasoleo", 
+    "potencia" : "9000", 
+    "matricula" : "10-tt-10", 
+    "motor" : "10", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
+{ 
+    "_id" : ObjectId("5bc79931f1dca1264f26f153"), 
+    "imagem_modelo" : "mercedesclassc.png", 
+    "nome_marca" : "MERCEDES", 
+    "nome_modelo" : "Mercedes Classe C", 
+    "username" : "pedrov", 
+    "nr_portas" : "5", 
+    "combustivel" : "Gasoleo", 
+    "consumo" : "Gasoleo", 
+    "potencia" : "135cv", 
+    "matricula" : "68/68/68", 
+    "motor" : "2.0cc", 
+    "_class" : "ligacao.ligacao.model.Modelos"
+}
